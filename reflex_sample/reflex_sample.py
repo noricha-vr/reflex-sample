@@ -61,6 +61,11 @@ def index() -> rx.Component:
                 "Built with Reflex and Tailwind CSS",
                 class_name="text-sm text-gray-500 mt-8",
             ),
+            rx.link(
+                "View Cinderella Story Landing Page",
+                href="/lp",
+                class_name="text-indigo-600 hover:text-indigo-800 font-medium mt-4 inline-block transition-colors",
+            ),
             spacing="6",
             class_name="py-16 max-w-md mx-auto",
         ),
