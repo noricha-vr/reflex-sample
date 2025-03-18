@@ -43,7 +43,7 @@ docker-compose up
 
 ```bash
 # リポジトリをクローン
-git clone [リポジトリURL]
+git clone https://github.com/noricha-vr/reflex-sample
 cd reflex-sample
 
 # 環境をセットアップ
@@ -58,7 +58,7 @@ reflex run
 開発サーバーが起動したら、以下のURLにアクセスしてください：
 
 - カウンターアプリケーション: http://localhost:3000
-- シンデレラストーリーのランディングページ: http://localhost:3000/lp
+- ランディングページ: http://localhost:3000/lp
 
 ## プロジェクト構造
 
